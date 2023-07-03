@@ -1,5 +1,6 @@
 #ifndef _LISTS_H_
 #define _LISTS_H_
+#include <stddef.h>
 
 /**
  * struct listint_s - singly linked list
@@ -31,4 +32,4 @@ size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 int _putchar(char c);
 
-#endif _LISTS_H_
+#endif /*_LISTS_H_*/
